@@ -1,0 +1,62 @@
+.Contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.Titulo {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.Personajes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #333;
+  padding: 20px;
+}
+
+.Tarjeta {
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Tarjeta h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Tarjeta img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.boton {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #555;
+}
+
